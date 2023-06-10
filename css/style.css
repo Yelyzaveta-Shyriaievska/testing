@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 110vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url(../img/img9.png);
+    background-size: cover;
+    background-size: 110% 110%;
+}
+.box{
+    width: 1300px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 95px;
+    margin-bottom: 50px;
+}
+.drop_area{
+    width: 900px;
+    height: 600px;
+    background: url(../img/imgonline-com-ua-Black-White-dXH3BamqwXd.png);
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.drop_item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.drag_item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background: lightcoral;
+    position: absolute;
+}
+#item14{
+    top: 10px;
+    left: 10px;
+}
+#item2{
+    top: 10px;
+    left: 170px;
+}
+#item3{
+    top: 10px;
+    left: 330px;
+}
+#item4{
+    top: 10px;
+    left: 490px;
+}
+#item19{
+    top: 10px;
+    left: 650px;
+}
+#item23{
+    top: 170px;
+    left: 10px;
+}
+#item13{
+    top: 330px;
+    left: 10px;
+}
+#item8{
+    top: 490px;
+    left: 10px;
+}
+#item17{
+    top: 10px;
+    left: 810px;
+}
+#item10{
+    top: 10px;
+    left: 970px;
+}
+#item11{
+    top: 170px;
+    right: 10px;
+}
+#item20{
+    top: 330px;
+    right: 10px;
+}
+#item7{
+    top: 490px;
+    right: 10px;
+}
+#item1{
+    top: 650px;
+    right: 10px;
+}
+#item15{
+    top: 810px;
+    right: 10px;
+}
+#item16{
+    top: 810px;
+    right: 170px;
+}
+#item9{
+    top: 810px;
+    right: 330px;
+}
+#item18{
+    top: 810px;
+    right: 490px;
+}
+#item5{
+    top: 810px;
+    right: 650px;
+}
+#item12{
+    top: 810px;
+    right: 810px;
+}
+#item21{
+    top: 810px;
+    left: 170px;
+}
+#item22{
+    top: 810px;
+    left: 10px;
+}
+#item6{
+    top: 650px;
+    left: 10px;
+}
+#item24{
+    top: 10px;
+    left: 1140px;
+}
+.result{
+    width: 450px;
+    height: 450px;
+}
